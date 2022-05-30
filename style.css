@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f3f6ff
 }
+
 
 #navbar{
     background-color: #f195b2;
@@ -133,3 +135,51 @@ body {
     font-weight:400;
 }
 
+
+/* Third Part */
+
+#promotion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 577px;
+    margin-bottom: 100px;
+}
+#promotion>div:nth-child(1){
+}
+#promotion>div:nth-child(1)>img{
+}
+
+
+#promotion>div:nth-child(2){
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center; 
+    background-color: #f195b2;
+}
+#promotion>div:nth-child(2)>div:nth-child(1){
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+#promotion>div:nth-child(2)>div:nth-child(1)>h1{
+    padding: 0px 10px 0px 10px;
+    color: #62c3e7;  
+}
+#promotion>div:nth-child(2)>div:nth-child(2)>h1{
+    color: #ffffff;
+}
+#promotion>div:nth-child(2)>div:nth-child(3)>p{
+    color: #ffffff;
+}
+#promotion>div:nth-child(2)>div:nth-child(4)>button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 10% / 50%;
+    color:#ffffff; 
+    background-color: #62c3e7;
+    border: none;
+    font-size:medium
+}
+#promotion>div:nth-child(2)>div:nth-child(3){
+    width: 90%;
+
+}
