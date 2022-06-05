@@ -139,10 +139,15 @@ body {
 /* Third Part */
 
 #promotion{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 577px;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
     margin-bottom: 100px;
+    justify-content: center;
+    height: auto;
+}
+#promotion>div{
+    border: 1px solid red;
 }
 #promotion>div:nth-child(1){
 }
